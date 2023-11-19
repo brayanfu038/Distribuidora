@@ -1,0 +1,23 @@
+def cargar_datos(grafo):
+    grafo.agregar_nodo('A', 'almacen', tuple(map(float, [10, 10])))
+    grafo.agregar_nodo('B', 'punto_venta', tuple(map(float, [20, 20])))
+    grafo.agregar_nodo('C', 'punto_venta', tuple(map(float, [30, 30])))
+    grafo.agregar_nodo('D', 'punto_venta', tuple(map(float, [40, 40])))
+
+    grafo.agregar_arista('A', 'B', 8, 0, 0)
+    grafo.agregar_arista('A', 'C', 5, 0, 0)
+    grafo.agregar_arista('A', 'D', 10, 0, 0)
+    grafo.agregar_arista('B', 'D', 5, 0, 0)
+    grafo.agregar_arista('B', 'C', 6, 0, 0)
+    grafo.agregar_arista('C', 'D', 7, 0, 0)
+    
+    # grafo.agregar_nodo('CarnesSelectas Ltda. ', 'almacen', tuple(map(float, [0, 220])))
+    # grafo.agregar_nodo('La Esquina Carnívora ', 'punto_venta', tuple(map(float, [85, 670])))
+    # grafo.agregar_nodo('CarnesDelicias Express ', 'punto_venta', tuple(map(float, [295 , 400 ])))
+    # grafo.agregar_nodo('La Fama ', 'punto_venta', tuple(map(float, [605 , 320 ])))
+    # grafo.agregar_nodo('Magrocarnes', 'punto_venta', tuple(map(float, [345 , 0 ])))
+    # grafo.agregar_nodo('DistriCarnes', 'punto_venta', tuple(map(float, [615 , 60 ])))
+    # grafo.agregar_nodo('Carnicería Delicatta', 'punto_venta', tuple(map(float, [370 , 740 ])))
+    # grafo.agregar_nodo('La macheleria', 'punto_venta', tuple(map(float, [716 , 710 ])))
+    # grafo.agregar_nodo('Carnex', 'punto_venta', tuple(map(float, [940 , 490 ])))
+    # grafo.agregar_nodo('SurtiCarnes', 'punto_venta', tuple(map(float, [825 , 270 ])))
